@@ -51,7 +51,7 @@ const options = {
   
 
     
-function LineGraph(casesType) {
+function LineGraph(casesType='cases') {
     const [data, setData] = useState({});
     //https://disease.sh/v3/covid-19/historical/all?lastdays=120
     const buildChartData = (data, casesType="cases") => {
